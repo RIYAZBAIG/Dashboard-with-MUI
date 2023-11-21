@@ -33,6 +33,7 @@ import ProjectAdds from "./Components/ProjectAdds";
 import ProjectEdit from "./Components/ProjectEdit";
 import ProjectDetails from "./Components/ProjectDetails";
 import Contacts from "./Components/Contacts";
+import Compose from "./Components/Compose";
 
 function App() {
   return (
@@ -72,6 +73,7 @@ function App() {
           <Route path="/Projectedit" element={<ProjectEdit/>}/>
           <Route path="/Projectdetails" element={<ProjectDetails/>}/>
           <Route path="/contacts" element={<Contacts/>}/>
+          < Route path ="/Compose" element={<Compose/>}/>
         </Routes>
       </div>
     </Router>

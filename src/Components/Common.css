@@ -1,0 +1,213 @@
+.Nav{
+    background-color: #80daeb;
+    margin-left: 1px;
+    height: 50px;
+}
+
+.Nav {
+    transition: margin-left 0.3s ease;
+  }
+  
+  .Nav-Open {
+    margin-left: 157px; 
+  }
+  
+
+.More{
+  margin-top: 55px;
+}
+
+.More1{
+  margin-top: 60px;
+}
+
+.More2{
+  margin-top: 82px;
+
+}
+
+.More3{
+  margin-top: 82px;
+}
+.Card1{
+  background-color: #0abab5 ;
+}
+
+.Card2{
+  background-color:#fa8072;
+}
+
+.Card3{
+  background-color: #8b008b ;
+}
+
+.Card4{
+  background-color: #9c7c38 ;
+}
+
+.bar{
+  height: 150px;
+  width: 150px;
+  margin-top: -150px;
+  margin-left: 90px;
+}
+
+.apple{
+  margin-top: -105px;
+  margin-left: 152px;
+}
+
+.native{
+  margin-top: -105px;
+  margin-left: 152px;
+}
+
+.charts{
+margin-top: 65px;
+margin-right: 80px;
+width: 1350px;
+}
+
+.dash2{
+  background-color: #7b1113;
+}
+
+
+.div2{
+ position: relative;
+ display: flex;
+ margin-right: "175px";
+
+
+}
+
+.card4{
+  background: #17a2b8;
+}
+
+.A{
+  background: #17a2b8;
+
+}
+
+
+
+
+
+.chat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 16px; 
+
+
+}
+
+.direct-chat-container {
+
+  border: 1px solid #ccc;
+  padding: 16px;
+  
+}
+
+
+.chat-messages {
+  max-height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+
+}
+
+.user-message {
+  padding: 8px;
+  text-align: right;
+  
+}
+
+.other-message {
+  padding: 8px;
+  text-align: left;
+  
+}
+
+.message-input {
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+.message-input input {
+  flex: 1;
+  margin-right: 10px;
+  
+}
+
+.message-input button {
+  cursor: pointer;
+  
+}
+
+
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-option {
+  padding: 8px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-option:hover {
+  background-color: #ddd;
+}
+
+
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  margin: 20px; 
+}
+
+.card {
+  width: 200px; 
+  height: 150px; 
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.Card123{
+  margin-right: "75px";
+  background-color: #7b1113;
+}
+
+
+.Caledar{
+  background-color: #fa8072;
+  margin-right: "150px";
+  margin-top: "500px";
+}
+
+
+
+.Side{
+  background-color: #ceff00;
+}
+
+.dropdown-btn{
+  background-color: #8b008b;
+}
+
+.Slider{
+  /* margin-right: "125px"; */
+}
+
+.clearfix{
+  background-color: #8b008b;
+}

@@ -263,6 +263,22 @@ const NavBar = () => {
         </div>
       )}
     </div>
+    <div className="dropdown">
+      <button className="dropdown-btn" onClick={toggleDropdown}>
+        MailBox
+      </button>
+
+      {isOpen && (
+        <div className="dropdown-content">
+          <a href="./Compose" class="nav-link active">
+<i class="far fa-circle nav-icon"></i>
+<p>Compose</p>
+</a>
+
+
+        </div>
+      )}
+    </div>
 
     </div>
     
